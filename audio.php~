@@ -1,0 +1,63 @@
+<?php ?>
+
+								<div class="post-audio">
+
+										<a class="post-title" href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
+										
+																	<article class="posts-meta">by <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php the_author(); ?></a> on <?php the_time('F jS, Y'); ?> at <?php the_time('g:i a'); ?>. 
+																		
+										<?php 
+										
+											$categories = get_the_category();
+											$separator = ', ';
+											$categoriesOutput = '';
+											
+											if ($categories) { ?>
+												
+												 || Posted in: 
+												
+										<?php			
+
+														foreach ($categories as $category) {
+														
+														$categoriesOutput .= '<a href="' . get_category_link($category->term_id) . '">' . $category->cat_name . '</a>' . $separator;
+																																				
+													}
+												
+													echo trim($categoriesOutput, $separator);
+												
+												}
+
+										?>
+																	
+																	</article>
+																	
+										<?php if (has_post_thumbnail()) { ?>
+											<div class="audio-image"><?php the_post_thumbnail('normal'); ?>
+											</div>
+										<?php } ?>
+										<p><?php the_content(); ?></p>
+
+									<div class="posts-navigation">
+										
+										<p class="alignleft"><?php previous_post_link('&laquo; Previous: %link', '%title', 'yes'); ?></p>
+
+										<p class="alignright"><?php next_post_link('Next: %link', '%title &raquo;', 'yes'); ?></p>
+										
+									</div>
+
+	<?php 
+	
+	comments_template();
+
+	$contentFooterCheck = get_theme_mod('handcraftExpo_content_footer_image');
+
+	if ($contentFooterCheck != '') { ?>
+
+																	<div class="content-footer">
+																		<img id="content-footer-image" src="<?php echo get_theme_mod('handcraftExpo_content_footer_image'); ?>"  alt="" />
+																	</div>
+
+<?php }; ?>
+
+								</div>

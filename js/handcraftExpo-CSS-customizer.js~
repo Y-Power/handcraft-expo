@@ -1,0 +1,10 @@
+(function(jQuery) {
+
+	// Fast update of Custom CSS
+		wp.customize('handcraft-expo_custom_css', function(value){
+			value.bind(function(newval){
+				jQuery('html').html(newval);
+			});
+		});
+
+})(jQuery);

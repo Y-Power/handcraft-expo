@@ -1,0 +1,14 @@
+.mobile-page-content .pages-navigation,
+.mobile-page-content .ancestors-children-nav {				
+		visibility: hidden;				
+	}
+
+.page-main-content-2-columns {
+		min-width: 96%;
+		max-width: 96%;
+	}
+.widgets-bar-bottom-div {
+		width:  96%;
+		margin-left: -1%;
+	}
+

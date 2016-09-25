@@ -1,0 +1,40 @@
+.blog-main-content {				
+		min-width: 36%;
+		max-width: 36%;					
+	}
+.blog-title {
+		width: 100%;
+	}
+.blog-navigation {
+		width: 100%;
+	}
+
+.mobile-page-content .pages-navigation,
+.mobile-page-content .ancestors-children-nav {				
+		visibility: hidden;				
+	}
+
+.blog-main-content {
+		min-width: 58.9%;
+		max-width: 58.9%;
+		margin: 2%;
+	}
+.blog-main-content:nth-of-type(odd) {
+	
+		margin-left: 2%;
+	
+	}
+.blog-main-content p {
+		padding: 2%;
+	}
+.blog-main-content h3,
+.blog-main-content article {
+		padding: 0 2%;
+	}
+.blog-main-content h3 a {
+		text-decoration: none;
+	}
+
+
+
+

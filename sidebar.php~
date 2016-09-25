@@ -1,0 +1,9 @@
+<?php 
+
+	if (is_active_sidebar('widgets_sidebar')) { ?>
+		
+		<div class="sidebar-div clearfix">
+			<?php dynamic_sidebar('widgets_sidebar'); ?>
+		</div>
+		
+<?php } ?>

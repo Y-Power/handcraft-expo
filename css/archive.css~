@@ -1,0 +1,4 @@
+.page-main-content {
+	min-width: 90%;
+	max-width: 90%;
+}

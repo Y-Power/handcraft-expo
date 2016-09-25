@@ -1,0 +1,7 @@
+<?php ?>
+
+	#tinymce,
+	.mce-content-body {
+			color: green;
+			background-color: white;
+		}

@@ -1,0 +1,1015 @@
+# Translation of Handcraft Expo in Italian
+# This file is distributed under the same license as the Handcraft Expo package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-04-02 19:53+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.1.0-alpha\n"
+"Project-Id-Version: Handcraft Expo\n"
+"POT-Creation-Date: \n"
+"Last-Translator: _Y_Power\n"
+"Language-Team: \n"
+
+#. Theme Name of the plugin/theme
+msgid "Handcraft Expo"
+msgstr "Handcraft Expo"
+
+#. Description of the plugin/theme
+msgid "A WordPress Theme focused on graphical impact and simplicity: a traditional left sidebar spin-off helps you 'streamline what really matters'. Geared towards personal or small-sized handcrafting businesses use. GNU GPL v3 guarantees all user's freedoms. French and Italian translations included."
+msgstr "Un tema WordPress orientato verso l'impatto grafico e la semplicità: una rielaborazione della tradizionale barra laterale vi aiuta a 'snellire ciò che conta davvero'. Studiato per artigiani indipendenti o piccole imprese. La licenza GNU GPL v.3 garantisce tutte le libertà agli utilizzatori. Include traduzioni in inglese e francese."
+
+#. Template Name of the plugin/theme
+msgid "Handcraft Expo 2 Columns Template"
+msgstr "Handcraft Expo - 2 colonne"
+
+#. Template Name of the plugin/theme
+msgid "Handcraft Expo Blog Template"
+msgstr "Handcraft Expo - Blog"
+
+#. Template Name of the plugin/theme
+msgid "Handcraft Expo Front-Page Template"
+msgstr "Handcraft Expo - Modello della pagina Home"
+
+#. Template Name of the plugin/theme
+msgid "Handcraft Expo Page No-Title Template"
+msgstr "Handcraft Expo - Modello di pagina senza titolo"
+
+#. Template Name of the plugin/theme
+msgid "Handcraft Expo Page Template"
+msgstr "Handcraft Expo - Modello di pagina"
+
+#. Template Name of the plugin/theme
+msgid "Handcraft Expo Transparent Page Template"
+msgstr "Handcraft Expo - Modello di pagina trasparente"
+
+#: searchform.php:4
+msgctxt "placeholder"
+msgid "Keyword"
+msgstr "Parola chiave"
+
+#: searchform.php:6
+msgctxt "submit button"
+msgid "Search"
+msgstr "Cerca"
+
+#: mobile-html.php:257
+#: single.php:49
+msgid "Previous: "
+msgstr "Precedente: "
+
+#: mobile-html.php:261
+#: single.php:54
+msgid "Next: "
+msgstr "Prossimo: "
+
+#: search.php:5
+msgid "Search results for \""
+msgstr "Risultati ricerca di \""
+
+#: searchform.php:3
+#: searchform.php:4
+msgctxt "label"
+msgid "Search for:"
+msgstr "Cerca:"
+
+#: mobile-html.php:99
+#: mobile-html.php:245
+#: page.php:49
+#: single.php:36
+msgid "Previous page"
+msgstr "Pagina precedente"
+
+#: mobile-html.php:98
+#: mobile-html.php:244
+#: page.php:48
+#: single.php:35
+msgid "Next page"
+msgstr "Pagina successiva"
+
+#: mobile-html.php:43
+#: page.php:22
+msgid "Main page: "
+msgstr "Pagina principale:"
+
+#: mobile-html.php:48
+#: page.php:27
+msgid "Related Pages:"
+msgstr "Pagine correlate:"
+
+#: mobile-html.php:77
+#: single.php:17
+msgid " by "
+msgstr "scritto da "
+
+#: mobile-html.php:94
+#: mobile-html.php:240
+#: page.php:44
+#: single.php:31
+msgid "Pages:"
+msgstr "Pagine:"
+
+#: functions.php:1833
+msgid "Previewer Text Box 2"
+msgstr "Riquadro di testo Visore 2"
+
+#: functions.php:1846
+msgid "Previewer Text Box 3"
+msgstr "Riquadro di testo Visore 3"
+
+#: functions.php:1859
+msgid "Previewer Text Box 4"
+msgstr "Riquadro di testo Visore 4"
+
+#: functions.php:1872
+msgid "Previewer Text Box 5"
+msgstr "Riquadro di testo Visore 5"
+
+#: functions.php:1885
+msgid "Previewer Text Box 6"
+msgstr "Riquadro di testo Visore 6"
+
+#: functions.php:1898
+msgid "Previewer Text Box 7"
+msgstr "Riquadro di testo Visore 7"
+
+#: functions.php:1911
+msgid "Previewer Text Box 8"
+msgstr "Riquadro di testo Visore 8"
+
+#: functions.php:1924
+msgid "Add your custom CSS"
+msgstr "Aggiungete il vostro CSS personalizzato"
+
+#: functions.php:1925
+msgid "Note: Leave EMPTY if unsure. Style tags included, just add CSS selectors and options. Example: <br /><strong>body</strong> {display: none;}"
+msgstr "Nota: Lasciare VUOTO se incerti. Le tag dello stile sono incluse, è sufficiente aggiungere i selettori e le opzioni CSS. Esempio: <br /><strong>body</strong> {display: none;}"
+
+#: functions.php:1940
+msgid "Your theme"
+msgstr "Il vostro tema"
+
+#: functions.php:1941
+msgid "Thank you for using Handcraft Expo: my promise is that there will never be a 'PRO' version of this theme, any new feature will always be included in future updates. If you value this as much as I do, please visit Handcraft Expo's <a href=\"http://handcraftexpo.nouveausiteweb.fr/\" target=\"_blank\">website</a>, share you feedback, opinions and suggestions and help me making it better!<br /><br />Credits:<br /><a href=\"https://stallman.org\" target=\"_blank\">Richard Stallman</a>: for the inspiration<br /><a href=\"https://fsf.org\" target=\"_blank\">Free Software Foundation</a>: for the licences<br /><a href=\"https://wordpress.org\" target=\"_blank\">WordPress</a>: for the platform<br /><a href=\"https://profiles.wordpress.org/poena\" target=\"_blank\">Carolina</a> and all the <a href=\"https://make.wordpress.org/themes/\" target=\"_blank\">Theme Review Team</a>: for helping make a way better theme<br />Kevin from Graphinity Design: for the help<br />My girlfriend: for the psychological support<br /><a href=\"https://en.wikipedia.org/wiki/Coffee\" target=\"_blank\">Coffee</a>: for the physical support<br />"
+msgstr "Grazie per aver scelto Handcraft Expo: la mia promessa è che non ci sarà mai una versione 'PRO' di questo tema, tutte le nuove funzionalità saranno incluse nei futuri aggiornamenti. Se per voi questo ha lo stesso valore che ha per me, vi invito a visitare il <a href=\"http://handcraftexpo.nouveausiteweb.fr/\" target=\"_blank\">sito web</a> di Handcraft Expo, scrivete i vostri commenti, opinioni e consigli e aiutatemi a renderlo migliore!<br /><br />Crediti:<br /><a href=\"https://stallman.org\" target=\"_blank\">Richard Stallman</a>: per l'ispirazione<br /><a href=\"https://fsf.org\" target=\"_blank\">Free Software Foundation</a>: per le licenze<br /><a href=\"https://wordpress.org\" target=\"_blank\">WordPress</a>: per la piattaforma<br /><a href=\"https://profiles.wordpress.org/poena\" target=\"_blank\">Carolina</a> e tutto il <a href=\"https://make.wordpress.org/themes/\" target=\"_blank\">Theme Review Team</a>: per avermi aiutato a creare un tema migliore<br />Kevin di Graphinity Design: per l'aiuto<br />La mia compagna: per il supporto psicologico<br />Il <a href=\"https://it.wikipedia.org/wiki/Caff%C3%A8\" target=\"_blank\">caffè</a>: per il supporto fisico<br />"
+
+#: header.php:85
+msgid "Empowered by "
+msgstr "Potenziato da "
+
+#: home.php:38
+#: mobile-html.php:116
+#: mobile-html.php:205
+msgid "Previous Entries"
+msgstr "Voci precedenti"
+
+#: home.php:42
+#: mobile-html.php:120
+#: mobile-html.php:206
+msgid "Next Entries"
+msgstr "Voci successive"
+
+#: mobile-html.php:5
+msgid "Menu"
+msgstr "Menu"
+
+#: functions.php:1508
+msgid "Below Title"
+msgstr "Sotto il titolo"
+
+#: functions.php:1509
+msgid "Below Tagline"
+msgstr "Sotto la descrizione"
+
+#: functions.php:1510
+msgid "Below Logo"
+msgstr "Sotto il logo"
+
+#: functions.php:1511
+msgid "Below Menu"
+msgstr "Sotto il menu"
+
+#: functions.php:1516
+msgid "Show RSS2 feeds:"
+msgstr "Visualizza i feed RSS2:"
+
+#: functions.php:1523
+msgid "Show Facebook Icon:"
+msgstr "Mostra icona Facebook:"
+
+#: functions.php:1530
+msgid "Facebook Link:"
+msgstr "Collegamento a Facebook:"
+
+#: functions.php:1537
+msgid "Show Twitter Icon:"
+msgstr "Mostra icona Twitter:"
+
+#: functions.php:1544
+msgid "Twitter Link:"
+msgstr "Collegamento a Twitter:"
+
+#: functions.php:1551
+msgid "Show Google Icon:"
+msgstr "Mostra icona Google:"
+
+#: functions.php:1558
+msgid "Google Link:"
+msgstr "Collegamento a Google:"
+
+#: functions.php:1565
+msgid "Show Google Plus Icon:"
+msgstr "Mostra icona Google Plus:"
+
+#: functions.php:1572
+msgid "Google Plus Link:"
+msgstr "Collegamento a Google Plus:"
+
+#: functions.php:1579
+msgid "Show Instagram Icon:"
+msgstr "Mostra icona Instagram:"
+
+#: functions.php:1586
+msgid "Instagram Link:"
+msgstr "Collegamento a Instagram:"
+
+#: functions.php:1593
+msgid "Show YouTube Icon:"
+msgstr "Mostra icona YouTube:"
+
+#: functions.php:1600
+msgid "YouTube Link:"
+msgstr "Collegamento a YouTube:"
+
+#: functions.php:1607
+msgid "Show custom site 1:"
+msgstr "Mostra sito personalizzato 1:"
+
+#: functions.php:1614
+msgid "Your custom site 1:"
+msgstr "Il tuo sito personalizzato 1:"
+
+#: functions.php:1621
+msgid "Custom site 1 logo:"
+msgstr "Logo sito personalizzato 1:"
+
+#: functions.php:1628
+msgid "Show custom site 2:"
+msgstr "Mostra sito personalizzato 2:"
+
+#: functions.php:1635
+msgid "Your custom site 2:"
+msgstr "Il tuo sito personalizzato 2:"
+
+#: functions.php:1642
+msgid "Custom site 2 logo:"
+msgstr "Logo sito personalizzato 2:"
+
+#: functions.php:1649
+msgid "Show custom site 3:"
+msgstr "Mostra sito personalizzato 3:"
+
+#: functions.php:1656
+msgid "Your custom site 3:"
+msgstr "Il tuo sito personalizzato 3:"
+
+#: functions.php:1663
+msgid "Custom site 3 logo:"
+msgstr "Logo sito personalizzato 3:"
+
+#: functions.php:1670
+msgid "Show custom site 4:"
+msgstr "Mostra sito personalizzato 4:"
+
+#: functions.php:1677
+msgid "Your custom site 4:"
+msgstr "Il tuo sito personalizzato 4:"
+
+#: functions.php:1684
+msgid "Custom site 4 logo:"
+msgstr "Logo sito personalizzato 4:"
+
+#: functions.php:1691
+msgid "Show custom site 5:"
+msgstr "Mostra sito personalizzato 5:"
+
+#: functions.php:1698
+msgid "Your custom site 5:"
+msgstr "Il tuo sito personalizzato 5:"
+
+#: functions.php:1705
+msgid "Custom site 5 logo"
+msgstr "Logo sito personalizzato 5:"
+
+#: functions.php:1712
+msgid "Show Previewer"
+msgstr "Mostra Visore"
+
+#: functions.php:1719
+msgid "Previewer Offset X"
+msgstr "Offset X del Visore"
+
+#: functions.php:1731
+msgid "Previewer Offset Y"
+msgstr "Offset Y del Visore"
+
+#: functions.php:1743
+msgid "Previewer font:"
+msgstr "Carattere del Visore:"
+
+#: functions.php:1765
+msgid "Previewer font size:"
+msgstr "Dimensione carattere del Visore:"
+
+#: functions.php:1777
+msgid "Previewer font color:"
+msgstr "Colore carattere del Visore:"
+
+#: functions.php:1783
+msgid "Previewer Background Color"
+msgstr "Colore di fondo del Visore"
+
+#: functions.php:1789
+msgid "Previewer Shadow Color"
+msgstr "Colore dell'ombra del Visore"
+
+#: functions.php:1795
+msgid "Previewer Background image:"
+msgstr "Immagine di fondo del Visore:"
+
+#: functions.php:1802
+msgid "Display latest post on menu link:"
+msgstr "Mostra l'ultimo articolo sul link del menu:"
+
+#: functions.php:1820
+msgid "Previewer Text Box 1"
+msgstr "Riquadro di testo Visore 1"
+
+#: functions.php:1827
+#: functions.php:1840
+#: functions.php:1853
+#: functions.php:1866
+#: functions.php:1879
+#: functions.php:1892
+#: functions.php:1905
+#: functions.php:1918
+msgid "Upload an image"
+msgstr "Carica un'immagine"
+
+#: functions.php:1502
+msgid "Social Icons Position:"
+msgstr "Posizione delle icone dei social network:"
+
+#: functions.php:1507
+msgid "Top"
+msgstr "Sopra"
+
+#: functions.php:1294
+msgid "Background Position:"
+msgstr "Posizionamento dello sfondo:"
+
+#: functions.php:1305
+msgid "On Contain: Background horizontal offset:"
+msgstr "Su Contieni: posizionamento orizzontale dell'Immagine di fondo:"
+
+#: functions.php:1317
+msgid "On Cover: Background vertical offset:"
+msgstr "Su Copri: posizionamento verticale dell'Immagine di fondo:"
+
+#: functions.php:1329
+msgid "Your logo:"
+msgstr "Il tuo Logo:"
+
+#: functions.php:1335
+msgid "Display page titles:"
+msgstr "Mostra titoli delle pagine:"
+
+#: functions.php:1337
+msgid "Note: Select a position to show titles on standard pages: the title is always shown on 'Pocket' layout. Use the theme's included page templates to hide the title when viewed in 'Standard' layout."
+msgstr "Nota: Scegli una posizione per i titoli delle pagine standard: il titolo è sempre visibile nella disposizione 'Pocket'. Utilizza i modelli inclusi nel tema per nascondere i titoli nella disposizione 'Standard'."
+
+#: functions.php:1341
+msgid "As banner"
+msgstr "Come insegna"
+
+#: functions.php:1342
+msgid "As content"
+msgstr "Come contenuto"
+
+#: functions.php:1347
+msgid "Pages main font:"
+msgstr "Carattere delle pagine:"
+
+#: functions.php:1369
+msgid "Choose a content footer image:"
+msgstr "Scegli un immagine di fine contenuto:"
+
+#: functions.php:1371
+#: functions.php:1797
+msgid "Note: Handcraft Expo suggests to use ONLY images with low opacity and high transparency and contrast in order to resemble a watermark effect."
+msgstr "Note: Handcraft Expo consiglia di utilizzare SOLTANTO immagini con bassa opacità ed alta trasparenza e contrasto per donare la sensazione di filigrana."
+
+#: functions.php:1376
+msgid "Rotate image:"
+msgstr "Ruota immagine:"
+
+#: functions.php:1388
+msgid "Content text:"
+msgstr "Testo del contenuto:"
+
+#: functions.php:1390
+msgid "Note: changes content background shadow as well."
+msgstr "Nota: modifica anche l'ombra del contenuto."
+
+#: functions.php:1395
+msgid "Content background:"
+msgstr "Sfondo del contenuto:"
+
+#: functions.php:1401
+msgid "Background Color:"
+msgstr "Colore di fondo:"
+
+#: functions.php:1407
+msgid "Side Menu Links:"
+msgstr "Collegamenti del menu laterale:"
+
+#: functions.php:1413
+msgid "Side Menu Links Hovering Background:"
+msgstr "Puntamento dei collegamenti del menu laterale:"
+
+#: functions.php:1419
+msgid "Page Links:"
+msgstr "Collegamenti delle Pagine:"
+
+#: functions.php:1425
+msgid "Sidebar toggle button:"
+msgstr "Pulsante scomparsa Barra Menu:"
+
+#: functions.php:1426
+msgid "Shows a button to show/hide the Menu Sidebar"
+msgstr "Mostra un pulsante per nascondere/mostrare la Barra Menu"
+
+#: functions.php:1433
+msgid "Main Sidebar opacity:"
+msgstr "Opacità della Barra laterale:"
+
+#: functions.php:1445
+msgid "Show Sidebar gradient:"
+msgstr "Mostra variazione di fondo della Barra:"
+
+#: functions.php:1446
+msgid "Suggested if using a full-screen background image. Note: NOT visible when a banner image is used."
+msgstr "Consigliato se si utilizza un'immagine di fondo a schermo intero. Nota: NON visibile quando si utilizza un'immagine d'Insegna."
+
+#: functions.php:1453
+msgid "Show Sidebar border:"
+msgstr "Mostra bordo della Barra:"
+
+#: functions.php:1460
+msgid "Sidebar border Size:"
+msgstr "Dimensione bordo della Barra:"
+
+#: functions.php:1462
+msgid "Note: affects also sub-menus border."
+msgstr "Nota: si riflette anche sui bordi dei sotto-menu."
+
+#: functions.php:1473
+msgid "Sidebar Border:"
+msgstr "Bordo della Barra:"
+
+#: functions.php:1479
+msgid "Menu Links Size:"
+msgstr "Dimensione dei collegamenti del menu:"
+
+#: functions.php:1491
+msgid "Icons set:"
+msgstr "Set delle icone:"
+
+#: functions.php:1496
+msgid "Bright"
+msgstr "Chiaro"
+
+#: functions.php:1497
+msgid "Dark"
+msgstr "Scuro"
+
+#: functions.php:1289
+msgid "Scroll"
+msgstr "Scorrevole"
+
+#: functions.php:1248
+#: functions.php:1300
+msgid "Contain"
+msgstr "Contieni"
+
+#: functions.php:1253
+msgid "On Contain: Banner image horizontal offset:"
+msgstr "Su Contieni: posizionamento orizzontale dell'Immagine dell'Insegna:"
+
+#: functions.php:1265
+msgid "On Cover: Banner image vertical offset:"
+msgstr "Su Copri: posizionamento verticale dell'Immagine dell'Insegna:"
+
+#: functions.php:1277
+msgid "Background Image:"
+msgstr "Immagine di sfondo:"
+
+#: functions.php:1283
+msgid "Display:"
+msgstr "Mostra:"
+
+#: functions.php:1288
+msgid "Fixed"
+msgstr "Fissa"
+
+#: functions.php:1148
+msgid "Color, scale and rotate"
+msgstr "Colora, ridimensione e ruota"
+
+#: functions.php:1149
+msgid "Full"
+msgstr "Tutti"
+
+#: functions.php:1154
+msgid "Title SCALE effect amount:"
+msgstr "Effetto RIDIMENSIONA titolo:"
+
+#: functions.php:1156
+#: functions.php:1169
+msgid "Note: ONLY active when either \"Color, scale and rotate\" or \"Full\" or title hover effect is selected."
+msgstr "Nota: attivo SOLTANTO dopo aver selezionato l'effetto di puntamento \"Colora, ridimensiona e ruota\" o \"Tutti\"."
+
+#: functions.php:1167
+msgid "Title ROTATE effect amount:"
+msgstr "Effetto RUOTA Titolo:"
+
+#: functions.php:1180
+msgid "Tagline Color:"
+msgstr "Colore della descrizione"
+
+#: functions.php:1186
+msgid "Show tagline background:"
+msgstr "Mostra sfondo della Ddescrizione:"
+
+#: functions.php:1193
+msgid "Tagline background color:"
+msgstr "Colore dello sfondo della descrizione:"
+
+#: functions.php:1199
+msgid "Tagline font size:"
+msgstr "Dimensione carattere della descrizione:"
+
+#: functions.php:1211
+msgid "Tagline horizontal offset:"
+msgstr "Posizionamento orizzontale della descrizione:"
+
+#: functions.php:1223
+msgid "Tagline vertical offset:"
+msgstr "Posizionamento verticale della descrizione:"
+
+#: functions.php:1235
+msgid "Banner Image:"
+msgstr "Immagine dell'intestazione:"
+
+#: functions.php:1242
+msgid "Banner Position:"
+msgstr "Posizionamento dell'intestazione:"
+
+#: functions.php:1247
+#: functions.php:1299
+msgid "Cover"
+msgstr "Copri"
+
+#: functions.php:1147
+msgid "Color"
+msgstr "Colora"
+
+#: functions.php:1055
+#: functions.php:1353
+#: functions.php:1749
+msgid "Palatino"
+msgstr "Palatino"
+
+#: functions.php:1056
+#: functions.php:1354
+#: functions.php:1750
+msgid "Times New Roman"
+msgstr "Times New Roman"
+
+#: functions.php:1057
+#: functions.php:1355
+#: functions.php:1751
+msgid "Arial"
+msgstr "Arial"
+
+#: functions.php:1058
+#: functions.php:1356
+#: functions.php:1752
+msgid "Arial Black"
+msgstr "Arial Black"
+
+#: functions.php:1059
+#: functions.php:1357
+#: functions.php:1753
+msgid "Comic Sans"
+msgstr "Comic Sans"
+
+#: functions.php:1060
+#: functions.php:1358
+#: functions.php:1754
+msgid "Impact"
+msgstr "Impact"
+
+#: functions.php:1061
+#: functions.php:1359
+#: functions.php:1755
+msgid "Lucida Sans Unicode"
+msgstr "Lucida Sans Unicode"
+
+#: functions.php:1062
+#: functions.php:1360
+#: functions.php:1756
+msgid "Tahoma"
+msgstr "Tahoma"
+
+#: functions.php:1063
+#: functions.php:1361
+#: functions.php:1757
+msgid "Trebuchet"
+msgstr "Trebuchet"
+
+#: functions.php:1064
+#: functions.php:1362
+#: functions.php:1758
+msgid "Verdana"
+msgstr "Verdana"
+
+#: functions.php:1065
+#: functions.php:1363
+#: functions.php:1759
+msgid "Courier New"
+msgstr "Courier New"
+
+#: functions.php:1066
+#: functions.php:1364
+#: functions.php:1760
+msgid "Lucida Console"
+msgstr "Lucida Console"
+
+#: functions.php:1071
+msgid "Title Position:"
+msgstr "Posizione del titolo:"
+
+#: functions.php:1077
+msgid "On Banner"
+msgstr "Sull'intestazione"
+
+#: functions.php:1078
+msgid "Menu Bar"
+msgstr "Barra Menu"
+
+#: functions.php:1079
+msgid "Main Page"
+msgstr "Pagina principale"
+
+#: functions.php:1084
+msgid "Title Color:"
+msgstr "Colore del titolo:"
+
+#: functions.php:1085
+msgid "Note: title color will change content links hovering color as well."
+msgstr "Nota: il colore del titolo cambierà anche il colore sul puntamento mouse dei collegamenti."
+
+#: functions.php:1091
+msgid "Show title background:"
+msgstr "Mostra sfondo del titolo:"
+
+#: functions.php:1098
+msgid "Title background color:"
+msgstr "Colore dello sfondo del titolo:"
+
+#: functions.php:1104
+msgid "Title font size:"
+msgstr "Dimensione carattere del titolo:"
+
+#: functions.php:1116
+msgid "Title horizontal offset:"
+msgstr "Posizionamento orizzontale del titolo:"
+
+#: functions.php:1117
+msgid "Note: \"Pocket\" layout will always display centered title and tagline."
+msgstr "Nota: la disposizione \"Pocket\" mostrerà il titolo e la descrizione sempre centrati."
+
+#: functions.php:1129
+msgid "Title vertical offset:"
+msgstr "Posizionamento verticale del titolo:"
+
+#: functions.php:1141
+msgid "Title hover effect:"
+msgstr "Effetto su puntamento del titolo:"
+
+#: functions.php:1146
+#: functions.php:1807
+msgid "None"
+msgstr "Nessuno"
+
+#: functions.php:1041
+msgid "Show Title and Tagline:"
+msgstr "Mostra il titolo e la descrizione:"
+
+#: functions.php:1042
+#: functions.php:1072
+msgid "Note: When \"On Banner\" is selected, title and tagline will be visible ONLY if you select a banner image first (Background -> Banner Image)."
+msgstr "Nota: Scegliendo \"sull'intestazione\", il titolo e la descrizione saranno visibili soltanto DOPO aver selezionato un'immagine per la stessa (Sfondo -> Immagine dell'Insegna)."
+
+#: functions.php:1049
+msgid "Title font:"
+msgstr "Carattere del titolo:"
+
+#: functions.php:1054
+#: functions.php:1352
+#: functions.php:1748
+msgid "Georgia"
+msgstr "Georgia"
+
+#: functions.php:1011
+msgid "How to display pages on your website."
+msgstr "Come visualizzare le pagine del vostro sito."
+
+#: functions.php:1016
+msgid "Menu Sidebar"
+msgstr "Barra Menu"
+
+#: functions.php:1017
+msgid "Choose Menu Bar's transparency level, its border and font size for Menu Links. Note: smaller devices will automatically adapt."
+msgstr "Scegli il livello di trasparenza della Barra del menu, il suo bordo e la dimensione dei collegamenti nel Menu. Nota: i dispositivi più piccoli si adatteranno automaticamente."
+
+#: functions.php:1022
+msgid "Socials and affiliated"
+msgstr "Social network e associati"
+
+#: functions.php:1023
+msgid "Add links to your social platforms and/or affiliated websites and activate them to show their icons. Note: Handcraft Expo suggests 24x24 or - same as the defalut pre-installed - 32x32 icons ONLY. Facebook&reg;, Twitter&reg;, Google&reg;, Google Plus&reg;, YouTube&reg; and Instagram&reg; are registred trademarks of the respective owners."
+msgstr "Aggiungi i collegamenti alle tue piattaforme e/o siti web associati e attivali per mostrare le loro icone. Nota: Handcraft Expo consiglia SOLTANTO icone 24x24 o - come da impostazioni predefinite - 32x32. Facebook&reg;, Twitter&reg;, Google&reg;, Google Plus&reg;, YouTube&reg; and Instagram&reg; sono marchi registrati dei rispettivi proprietari."
+
+#: functions.php:1028
+msgid "Previewer"
+msgstr "Visore"
+
+#: functions.php:1029
+msgid "Previewer is a tool that offers your visitor an animated page preview by hovering on a Menu Link. Previewer gives you up to 8 text description fields and you can add a picture on any of them."
+msgstr "Visore è uno strumento che offre al  visitatore un'anteprima animata della pagina passando il mouse su un collegamento del menu. Visore offre fino a 8 campi di testo per le descrizioni e puoi aggiungere una foto in ciascun campo."
+
+#: functions.php:1034
+msgid "Custom CSS"
+msgstr "Il vostro CSS"
+
+#: functions.php:1005
+msgid "If a logo is uploaded, it will be placed on the Menu Sidebar and will also become a clickable link to the homepage."
+msgstr "Se caricato, sarà posizionato nella Barra del menu e diverrà anche un collegamento cliccabile alla pagina principale."
+
+#: functions.php:1010
+msgid "Pages"
+msgstr "Pagine"
+
+#: functions.php:999
+msgid "Choose a banner, an image and a color for your website background. Banner images will display on top of the page and will force the background picture to be displayed on content area."
+msgstr "Scegliete l'intestazione, un'immagine e un colore di fondo per il vostro sito. Le immagini dell'intestazione saranno visualizzate all'inizio della pagina e forzeranno la visualizzazione dell'immagine di fondo nell'area dei contenuti."
+
+#: functions.php:1004
+msgid "Logo"
+msgstr "Logo"
+
+#: functions.php:320
+msgid "Widgets Mobile"
+msgstr "Widget Mobile"
+
+#: functions.php:329
+msgid "Widgets Sidebar"
+msgstr "Widget Barra Laterale"
+
+#: functions.php:338
+msgid "Widgets Top"
+msgstr "Widget superiori"
+
+#: functions.php:347
+msgid "Widgets Bottom 1"
+msgstr "Widgets Inferiori"
+
+#: functions.php:918
+#: previewer-html.php:2
+msgid "describe your menu link here"
+msgstr "descrivi qui il collegamento del menu"
+
+#: functions.php:998
+msgid "Background"
+msgstr "Sfondo"
+
+#: functions.php:118
+msgid " || Posted in: "
+msgstr "|| Pubblicato nella categoria: "
+
+#: functions.php:203
+msgid "Handcraft Expo Main Menu"
+msgstr "Menu principale di Handcraft Expo"
+
+#: functions.php:207
+msgid "Handcraft Expo Pocket Menu"
+msgstr "Menu Pocket di Handcraft Expo"
+
+#: functions.php:281
+#: mobile-html.php:88
+msgid "continue..."
+msgstr "continua..."
+
+#: functions.php:302
+msgid "Home"
+msgstr "Home"
+
+#: custom-tags.php:2
+msgid "Tags: "
+msgstr "Etichette: "
+
+#: comments-special.php:13
+msgid "Click and resize the window to reply to comment"
+msgstr "Fai clic e ridimensiona la finestra per rispondere al commento"
+
+#: comments.php:13
+msgid "Reply"
+msgstr "Rispondi"
+
+#: archive.php:67
+#: functions.php:164
+#: home.php:48
+#: index-default-html.php:45
+#: mobile-html.php:125
+#: mobile-html.php:169
+#: mobile-html.php:211
+#: mobile-html.php:275
+#: mobile-html.php:336
+#: mobile-html.php:375
+#: mobile-html.php:382
+#: page.php:91
+#: search.php:50
+#: single.php:68
+#: templates/handcraft-expo-2-columns-template.php:50
+#: templates/handcraft-expo-blog-template.php:56
+#: templates/handcraft-expo-frontpage-template.php:34
+#: templates/handcraft-expo-page-notitle-template.php:39
+#: templates/handcraft-expo-page-template.php:47
+#: templates/handcraft-expo-transparent-page-template.php:46
+msgid "Ooops! No content found!"
+msgstr "Ooops! Nessun contenuto trovato!"
+
+#: archive.php:68
+#: functions.php:165
+#: home.php:49
+#: index-default-html.php:46
+#: mobile-html.php:126
+#: mobile-html.php:170
+#: mobile-html.php:212
+#: mobile-html.php:276
+#: mobile-html.php:337
+#: mobile-html.php:376
+#: mobile-html.php:383
+#: page.php:92
+#: search.php:51
+#: single.php:69
+#: templates/handcraft-expo-2-columns-template.php:51
+#: templates/handcraft-expo-blog-template.php:57
+#: templates/handcraft-expo-frontpage-template.php:35
+#: templates/handcraft-expo-page-notitle-template.php:40
+#: templates/handcraft-expo-page-template.php:48
+#: templates/handcraft-expo-transparent-page-template.php:47
+msgid "You might want to go back to the"
+msgstr "Potresti voler tornare sulla "
+
+#: archive.php:68
+#: functions.php:165
+#: home.php:49
+#: index-default-html.php:46
+#: mobile-html.php:126
+#: mobile-html.php:170
+#: mobile-html.php:212
+#: mobile-html.php:276
+#: mobile-html.php:337
+#: mobile-html.php:376
+#: mobile-html.php:383
+#: page.php:92
+#: search.php:51
+#: single.php:69
+#: templates/handcraft-expo-2-columns-template.php:51
+#: templates/handcraft-expo-blog-template.php:57
+#: templates/handcraft-expo-frontpage-template.php:35
+#: templates/handcraft-expo-page-notitle-template.php:40
+#: templates/handcraft-expo-page-template.php:48
+#: templates/handcraft-expo-transparent-page-template.php:47
+msgid "homepage"
+msgstr "homepage"
+
+#: archive.php:62
+#: mobile-html.php:153
+#: mobile-html.php:331
+#: mobile-html.php:370
+#: page.php:75
+#: search.php:38
+msgid "Next"
+msgstr "Prossimo"
+
+#: archive.php:62
+#: mobile-html.php:148
+#: mobile-html.php:331
+#: mobile-html.php:370
+#: page.php:69
+#: search.php:38
+msgid "Previous"
+msgstr "Precedente"
+
+#: archive.php:14
+#: mobile-html.php:290
+msgid "Archives of "
+msgstr "Archivio di "
+
+#: archive.php:17
+#: mobile-html.php:293
+msgid "Archives of the day "
+msgstr "Archivio del giorno "
+
+#: archive.php:20
+#: mobile-html.php:296
+msgid "Archives of the month "
+msgstr "Archivio del mese di "
+
+#: archive.php:44
+#: functions.php:153
+#: home.php:19
+#: index-default-html.php:24
+#: mobile-html.php:186
+#: mobile-html.php:226
+#: mobile-html.php:312
+#: mobile-html.php:351
+#: search.php:21
+#: templates/handcraft-expo-blog-template.php:27
+msgid " by"
+msgstr "scritto da"
+
+#: archive.php:44
+#: functions.php:153
+#: home.php:19
+#: index-default-html.php:24
+#: mobile-html.php:77
+#: mobile-html.php:186
+#: mobile-html.php:226
+#: mobile-html.php:312
+#: mobile-html.php:351
+#: search.php:21
+#: single.php:17
+#: templates/handcraft-expo-blog-template.php:27
+msgid " on "
+msgstr "il "
+
+#: archive.php:44
+#: functions.php:153
+#: home.php:19
+#: index-default-html.php:24
+#: mobile-html.php:77
+#: mobile-html.php:186
+#: mobile-html.php:226
+#: mobile-html.php:312
+#: mobile-html.php:351
+#: search.php:21
+#: single.php:17
+#: templates/handcraft-expo-blog-template.php:27
+msgid " at "
+msgstr "alle ore "
+
+#: archive.php:51
+#: home.php:26
+#: index-default-html.php:31
+#: mobile-html.php:65
+#: mobile-html.php:92
+#: mobile-html.php:193
+#: mobile-html.php:238
+#: mobile-html.php:319
+#: mobile-html.php:358
+#: page.php:42
+#: search.php:28
+#: single.php:29
+#: templates/handcraft-expo-blog-template.php:40
+msgid "Edit"
+msgstr "Modifica"
+
+#. Theme URI of the plugin/theme
+msgid "http://handcraftexpo.nouveausiteweb.fr"
+msgstr "http://handcraftexpo.nouveausiteweb.fr"
+
+#. Author of the plugin/theme
+msgid "_Y_Power"
+msgstr "_Y_Power"
+
+#. Author URI of the plugin/theme
+msgid "http://ypower.nouveausiteweb.fr"
+msgstr "http://ypower.nouveausiteweb.fr"
+
