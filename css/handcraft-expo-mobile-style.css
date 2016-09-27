@@ -206,6 +206,8 @@
 		-webkit-transition: all linear .5s;
 		transition: all linear .5s;
 		
+		font-family: Arial !important;
+		font-size: 38px !important;
 	}
 
 .mobile-toggle-icon-pressed {
@@ -381,12 +383,14 @@
 @media screen and (max-width: 640px) {
 	
 			#mobile-toggle-icon {
-				font-size: 1.8em;
 				-o-text-shadow: 0 0 4px #fbfbfb;
 				-ms-text-shadow: 0 0 4px #fbfbfb;
 				-moz-text-shadow: 0 0 4px #fbfbfb;
 				-webkit-text-shadow: 0 0 4px #fbfbfb;
 				text-shadow: 0 0 4px #fbfbfb;
+
+				font-family: Arial !important;
+				font-size: 28px !important;
 			}
 
 			.mobile-main-menu-dropdown li {

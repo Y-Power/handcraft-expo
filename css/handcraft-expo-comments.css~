@@ -70,7 +70,6 @@ li.comment:last-of-type {
 		position: relative;
 		clear: left;
 		padding-bottom: 20px;
-		border-bottom: 3px solid;
 	
 	}
 

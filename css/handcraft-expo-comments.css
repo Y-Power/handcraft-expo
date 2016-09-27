@@ -191,6 +191,25 @@ li.comment:last-of-type {
 	
 	}
 
+li.pingback {
+
+		list-style-type: none;
+
+	}
+
+li.pingback:first-of-type {
+
+		list-style-type: none;
+		margin-top: 120px;
+
+	}
+
+li.pingback:last-of-type {
+
+		margin-bottom: 40px;
+
+	}
+
 
 /* -- Media Queries -- */
 
