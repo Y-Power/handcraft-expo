@@ -1,9 +1,0 @@
-<?php ?>
-
-<style type="text/css">
-	#tinymce,
-	.mce-content-body {
-			color: black;
-			background-color: white;
-		}
-</style>
