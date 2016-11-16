@@ -24,7 +24,8 @@
 	    jQuery('.side-navbar').mouseenter(function(){
 	        var box = jQuery('.description-container');
 	        var allElse = jQuery('.page-main-content, .post-main-content, .blog-main-content, .blog-title, .page-main-content-2-columns, .page-main-content-transparent, .page-notitle-main-content, .widgets-bar-div, .sidebar-div, .sidebar-button, .widgets-bar-bottom-div, .col-xs-9 .title-show, .col-xs-9 .tagline-show, .post-aside, .post-audio, .post-chat, .post-gallery, .post-quote, .post-status, .post-video, .previousposts, .nextposts, .searches-title, .handcraft-expo-scroll-up-container');
-	        box.animate({width: '100%', opacity: '0.9'}, "1500");
+		box.finish();
+		box.animate({width: '100%', opacity: '0.9'}, "1500");
 	        box.animate({opacity: '0.9'}, "1500");
 	        box.css("-o-border-radius", "10px");
 	        box.css("-ms-border-radius", "10px");
@@ -51,7 +52,7 @@
 		
 	jQuery(document).ready(function(){
 		jQuery(".side-navbar a:eq(0)").mouseenter(function(){	
-			jQuery("#previewer-content-1").fadeIn(800);
+		    jQuery("#previewer-content-1").finish().fadeIn(800);
 		});
 	});
 
@@ -64,7 +65,7 @@
 	
 	jQuery(document).ready(function(){
 		jQuery(".side-navbar a:eq(1)").mouseenter(function(){	
-			jQuery("#previewer-content-2").fadeIn(800);
+		    jQuery("#previewer-content-2").finish().fadeIn(800);
 		});
 	});
 
@@ -77,7 +78,7 @@
 
 	jQuery(document).ready(function(){
 		jQuery(".side-navbar a:eq(2)").mouseenter(function(){	
-			jQuery("#previewer-content-3").fadeIn(800);
+		    jQuery("#previewer-content-3").finish().fadeIn(800);
 		});
 	});
 
@@ -90,7 +91,7 @@
 
 	jQuery(document).ready(function(){
 		jQuery(".side-navbar a:eq(3)").mouseenter(function(){	
-			jQuery("#previewer-content-4").fadeIn(800);
+		    jQuery("#previewer-content-4").finish().fadeIn(800);
 		});
 	});
 
@@ -103,7 +104,7 @@
 	
 	jQuery(document).ready(function(){
 		jQuery(".side-navbar a:eq(4)").mouseenter(function(){	
-			jQuery("#previewer-content-5").fadeIn(800);
+		    jQuery("#previewer-content-5").finish().fadeIn(800);
 		});
 	});
 
@@ -116,7 +117,7 @@
 
 	jQuery(document).ready(function(){
 		jQuery(".side-navbar a:eq(5)").mouseenter(function(){	
-			jQuery("#previewer-content-6").fadeIn(800);
+		    jQuery("#previewer-content-6").finish().fadeIn(800);
 		});
 	});
 
@@ -129,7 +130,7 @@
 
 	jQuery(document).ready(function(){
 		jQuery(".side-navbar a:eq(6)").mouseenter(function(){	
-			jQuery("#previewer-content-7").fadeIn(800);
+		    jQuery("#previewer-content-7").finish().fadeIn(800);
 		});
 	});
 
@@ -142,7 +143,7 @@
 
 	jQuery(document).ready(function(){
 		jQuery(".side-navbar a:eq(7)").mouseenter(function(){	
-			jQuery("#previewer-content-8").fadeIn(800);
+		    jQuery("#previewer-content-8").finish().fadeIn(800);
 		});
 	});
 
