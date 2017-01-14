@@ -272,7 +272,7 @@
 	    }
 	}
     });
-
+    
     jQuery(document).ready(function(){
 	jQuery(this).hePocketTitleAdjust();
     });
@@ -292,7 +292,7 @@
 	    margin: '3% auto',
 	    fontSize: '.5em',
 	    textAlign: 'right',
-	    borderRadius: 'none',
+	    borderRadius: 'none'
 	});
 	// Side Menu overflow
 	jQuery('.navbar-container li .sub-menu').css({
@@ -301,7 +301,7 @@
 	    margin: '3% auto',
 	    fontSize: '.5em',
 	    textAlign: 'right',
-	    borderRadius: 'none',
+	    borderRadius: 'none'
 	});
 
 	// Widgets Top

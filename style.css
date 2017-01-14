@@ -1,7 +1,7 @@
 /*
 Theme Name: Handcraft Expo
 Theme URI: http://handcraftexpo.nouveausiteweb.fr
-Version: 1.0.28
+Version: 1.0.29
 Author: _Y_Power
 Author URI: http://ypower.nouveausiteweb.fr
 Description: A WordPress Theme focused on graphical impact and simplicity: a traditional left sidebar spin-off helps you 'streamline what really matters'. Geared towards personal or small-sized handcrafting businesses use. GNU GPL v3 guarantees all user's freedoms. French and Italian translations included.
@@ -231,13 +231,6 @@ body {
 		max-width: 75%;
 		background-color: transparent;
 		background-size: cover;
-	
-	}
-
-.col-xs-9 p {
-	
-		letter-spacing: 0.04em;
-		line-height: 1.15em;
 	
 	}
 
@@ -517,13 +510,11 @@ img.custom-logo {
 #custom-site-5:hover, 
 #rss2-feed:hover {
 	
-		opacity: 0.7;
-
-		-o-transition: all linear .4s;
-		-ms-transition: all linear .4s;
-		-moz-transition: all linear .4s;
-		-webkit-transition: all linear .4s;
-		transition: all linear .4s;
+		-o-transition: background-color linear .4s;
+		-ms-transition: background-color linear .4s;
+		-moz-transition: background-color linear .4s;
+		-webkit-transition: background-color linear .4s;
+		transition: background-color linear .4s;
 
 	}
 
@@ -542,11 +533,11 @@ img.custom-logo {
 	
 		background-color: transparent;
 		
-		-o-transition: all linear .4s;
-		-ms-transition: all linear .4s;
-		-moz-transition: all linear .4s;
-		-webkit-transition: all linear .4s;
-		transition: all linear .4s;
+		-o-transition: background-color linear .4s;
+		-ms-transition: background-color linear .4s;
+		-moz-transition: background-color linear .4s;
+		-webkit-transition: background-color linear .4s;
+		transition: background-color linear .4s;
 	
 	}
 
@@ -569,11 +560,11 @@ img.custom-logo {
 	
 		background-color: #3A5795;
 
-		-o-transition: all linear .4s;
-		-ms-transition: all linear .4s;
-		-moz-transition: all linear .4s;
-		-webkit-transition: all linear .4s;
-		transition: all linear .4s;
+		-o-transition: background-color linear .4s;
+		-ms-transition: background-color linear .4s;
+		-moz-transition: background-color linear .4s;
+		-webkit-transition: background-color linear .4s;
+		transition: background-color linear .4s;
 	
 	}
 
@@ -581,11 +572,11 @@ img.custom-logo {
 	
 		background-color: #55ACEE;
 
-		-o-transition: all linear .4s;
-		-ms-transition: all linear .4s;
-		-moz-transition: all linear .4s;
-		-webkit-transition: all linear .4s;
-		transition: all linear .4s;
+		-o-transition: background-color linear .4s;
+		-ms-transition: background-color linear .4s;
+		-moz-transition: background-color linear .4s;
+		-webkit-transition: background-color linear .4s;
+		transition: background-color linear .4s;
 	
 	}
 
@@ -593,11 +584,11 @@ img.custom-logo {
 	
 		background-color: #4386F9;
 
-		-o-transition: all linear .4s;
-		-ms-transition: all linear .4s;
-		-moz-transition: all linear .4s;
-		-webkit-transition: all linear .4s;
-		transition: all linear .4s;
+		-o-transition: background-color linear .4s;
+		-ms-transition: background-color linear .4s;
+		-moz-transition: background-color linear .4s;
+		-webkit-transition: background-color linear .4s;
+		transition: background-color linear .4s;
 	
 	}
 
@@ -605,11 +596,11 @@ img.custom-logo {
 	
 		background-color: #DB4437;
 
-		-o-transition: all linear .4s;
-		-ms-transition: all linear .4s;
-		-moz-transition: all linear .4s;
-		-webkit-transition: all linear .4s;
-		transition: all linear .4s;
+		-o-transition: background-color linear .4s;
+		-ms-transition: background-color linear .4s;
+		-moz-transition: background-color linear .4s;
+		-webkit-transition: background-color linear .4s;
+		transition: background-color linear .4s;
 	
 	}
 
@@ -617,11 +608,11 @@ img.custom-logo {
 	
 		background-color: #457499;
 
-		-o-transition: all linear .4s;
-		-ms-transition: all linear .4s;
-		-moz-transition: all linear .4s;
-		-webkit-transition: all linear .4s;
-		transition: all linear .4s;
+		-o-transition: background-color linear .4s;
+		-ms-transition: background-color linear .4s;
+		-moz-transition: background-color linear .4s;
+		-webkit-transition: background-color linear .4s;
+		transition: background-color linear .4s;
 	
 	}
 
@@ -629,11 +620,11 @@ img.custom-logo {
 	
 		background-color: #E62117;
 
-		-o-transition: all linear .4s;
-		-ms-transition: all linear .4s;
-		-moz-transition: all linear .4s;
-		-webkit-transition: all linear .4s;
-		transition: all linear .4s;
+		-o-transition: background-color linear .4s;
+		-ms-transition: background-color linear .4s;
+		-moz-transition: background-color linear .4s;
+		-webkit-transition: background-color linear .4s;
+		transition: background-color linear .4s;
 	
 	}
 
@@ -1060,7 +1051,6 @@ img.custom-logo {
 
 .posts-meta {
 	
-		margin-top: -2%;
 		padding-left: 4%;
 		padding-bottom: 2%;
 		font-size: 85%;
@@ -1188,14 +1178,6 @@ img.custom-logo {
 	
 	}
 
-.page-main-content p:first-of-type,
-.page-notitle-main-content p:first-of-type,
-.page-main-content-transparent p:first-of-type {
-	
-		padding-top: 0.4em;
-	
-	}
-
 .page-main-content a,
 .page-main-content-transparent a {
 	
@@ -1228,7 +1210,8 @@ img.custom-logo {
 	
 .page-title-inside {
 	
-		padding: 0 4%;
+                margin-bottom: 10px;
+                padding: 0 4%;
 		padding-top: 2%;
 		text-shadow: 0 0 0.5px black;
 	
@@ -1486,7 +1469,7 @@ img.custom-logo {
 	
 .post-main-content p {
 	
-		padding: 0.4% 4%;
+		padding: 0.4% 12px;
 	
 	}
 
