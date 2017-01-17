@@ -179,23 +179,28 @@ function handcraft_expo_get_top_ancestor_page_id() {
 function handcraft_expo_previewer_menu_items($handcraft_expo_menu_item_id){
 
     $HE_menu_locations = get_nav_menu_locations();
-    $HE_menu = wp_get_nav_menu_object( $HE_menu_locations['handcraft-expo_main_menu'] );
-    $HE_menu_items = wp_get_nav_menu_items($HE_menu->term_id, array( 'order' => 'DESC' ));
-    $HE_menu_items_titles = array();
 
-    foreach($HE_menu_items as $HE_menu_item){
-	array_push($HE_menu_items_titles, $HE_menu_item->title);
-    }
+    if (wp_get_nav_menu_object( $HE_menu_locations['handcraft-expo_main_menu'] )){
+        $HE_menu = wp_get_nav_menu_object( $HE_menu_locations['handcraft-expo_main_menu'] );
+        $HE_menu_items = wp_get_nav_menu_items($HE_menu->term_id, array( 'order' => 'DESC' ));
+        $HE_menu_items_titles = array();
+        foreach($HE_menu_items as $HE_menu_item){
+            array_push($HE_menu_items_titles, $HE_menu_item->title);
+        }
 
-    $HE_menu_titles_length = count($HE_menu_items_titles);
+        $HE_menu_titles_length = count($HE_menu_items_titles);
 
-    // if there is no such item in menu
-    if ($handcraft_expo_menu_item_id > $HE_menu_titles_length){
-	return;
+        // if there is no such item in menu
+        if ($handcraft_expo_menu_item_id > $HE_menu_titles_length){
+            return;
+        }
+        else {
+            $HE_previewer_menu_item_title = ' (' . $HE_menu_items_titles[ $handcraft_expo_menu_item_id - 1 ] . ')';
+            return $HE_previewer_menu_item_title;
+        }
     }
     else {
-	$HE_previewer_menu_item_title = ' (' . $HE_menu_items_titles[ $handcraft_expo_menu_item_id - 1 ] . ')';
-	return $HE_previewer_menu_item_title;
+        return;
     }
 
 }

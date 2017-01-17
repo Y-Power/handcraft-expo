@@ -32,20 +32,22 @@
 	    /* end previous animations */
 	    box.finish();
 	    // Full-size Previewer
-	    box.css({
+	    box.animate({
 	        marginTop: '0',
 		minWidth: windowPortionWidth + 'px',
 		maxWidth: windowPortionWidth + 'px', 
                 height: windowPortionHeight + 'px',
+		maxHeight: jQuery(window).innerHeight + 'px',
 	        offsetX: windowPortionOffsetX,
 	        offsetY: windowPortionOffsetY,
+		opacity: '0.3',
 	        overflow: 'hidden'
-	    });
-	    jQuery('.description-container img').css({
-	        maxHeight: (windowPortionHeight - 350) + 'px'
+	    },250);
+	    jQuery('#previewer-content-1 img, #previewer-content-2 img, #previewer-content-3 img, #previewer-content-4 img, #previewer-content-5 img, #previewer-content-6 img, #previewer-content-7 img, #previewer-content-8 img').css({
+	        maxHeight: (windowPortionHeight - jQuery('div#handcraft-expo-main-sidebar-container').offset().top - 350) + 'px'
 	    });
 
-	    box.animate({width: '100%', opacity: '0.9'}, 150);
+	    //box.animate({width: '100%', opacity: '0.9'}, 150);
 	    allElse.animate({opacity: '0.2'}, 150);
 	}).mouseleave(function(){
 	    box.animate({width: '0', marginTop: '20%', height: '0', opacity: '0'}, 150);
@@ -73,9 +75,12 @@
 	    /* if within previewer's limit */
 	    if (item <= 7){
 		jQuery(".side-navbar a:eq(" + item + ")").mouseenter(function(){
+		    box.finish();
 		    var HEMenuElID = "#previewer-content-" + (item + 1);
+		    box.css({opacity: '0.9'});
 		    jQuery(HEMenuElID).fadeIn(800);
 		}).mouseleave(function(){
+		    box.css({opacity: '0.3'});
 		    allToggledItems.finish().hide(0);
 		});
 	    }

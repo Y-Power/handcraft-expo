@@ -27,8 +27,9 @@
 	jQuery('.side-navbar').mouseenter(function(){
 	    /* end previous animations */
 	    box.finish();
-	    box.animate({width: '100%', opacity: '0.9'}, 150);
-	    box.css({borderRadius: '10px'});
+	    box.animate({width: '100%', opacity: '0.9'}, 150, function(){
+		box.css({borderRadius: '10px'});
+	    });
 	    allElse.animate({opacity: '0.2'}, 150);
 	}).mouseleave(function(){
 	    box.animate({width: '0', opacity: '0'}, 150);
