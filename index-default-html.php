@@ -16,7 +16,7 @@
 <?php } ?>
 		<div class="page-main-content">
 <?php if (has_post_thumbnail()) { ?>
-			<div class="page-image"><?php the_post_thumbnail('large'); ?></div>
+            <a href="<?php the_permalink(); ?>"><div class="page-image"><?php the_post_thumbnail('large'); ?></div></a>
 <?php };
 	if ($handcraft_expo_pageTitlePosCheck == 'as_content' && have_posts()) { ?>
 			<a href="<?php the_permalink(); ?>"><h1 class="page-title-inside"><?php the_title();?></h1></a>

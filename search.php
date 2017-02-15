@@ -15,7 +15,7 @@
 <?php } ?>
 			<div class="page-main-content">
 <?php if (has_post_thumbnail()) { ?>
-			<div class="page-image"><?php the_post_thumbnail('medium'); ?></div>
+			<a href="<?php the_permalink(); ?>"><div class="page-image"><?php the_post_thumbnail('medium'); ?></div></a>
 <?php }; ?>
 			<a href="<?php the_permalink(); ?>"><h1 class="page-title-inside"><?php the_title();?></h1></a>								
 <?php 

@@ -140,7 +140,7 @@ function handcraft_expo_fonts_selection($handcraft_expo_selected_font) {
 
 // Handcraft Expo Theme Setup		
 
-if ( ! isset($content_width)) {$content_width = 960; };
+if ( ! isset($content_width)) {$content_width = 480; };
 
 
 // Categories listing
@@ -237,15 +237,19 @@ wp_reset_postdata(); ?>
 <?php	};
 
 
-// Handcraft Expo editor style
+// Handcraft Expo editor styles
 
-function handcraft_expo_add_editor_styles() {
-    
-    add_editor_style('editor-style.css');
-
+function handcraft_expo_add_admin_editor_styles( $mceInit ) {
+    $handcraft_expo_admin_editor_styles = 'body.mce-content-body { color: ' . get_theme_mod( 'handcraft-expo_main_text_color', '#a3a3a3' ) . '; background-color: ' . get_theme_mod( 'handcraft-expo_content_background_color', '#1d2126' ) . '; font-family: ' . handcraft_expo_fonts_selection(get_theme_mod('handcraft-expo_body_font_type', 'arial')) . ';} body.mce-content-body a { color: ' . get_theme_mod('handcraft-expo_links_color', '#c4c103') . '}';
+    if ( isset( $mceInit['content_style'] ) ) {
+        $mceInit['content_style'] .= ' ' . $handcraft_expo_admin_editor_styles . ' ';
+    } else {
+        $mceInit['content_style'] = $handcraft_expo_admin_editor_styles . ' ';
+    }
+    return $mceInit;
 }
+add_filter('tiny_mce_before_init','handcraft_expo_add_admin_editor_styles');
 
-add_action( 'admin_init', 'handcraft_expo_add_editor_styles' );
 
 // Handcraft Expo Theme Support
 
