@@ -240,7 +240,7 @@ wp_reset_postdata(); ?>
 // Handcraft Expo editor styles
 
 function handcraft_expo_add_admin_editor_styles( $mceInit ) {
-    $handcraft_expo_admin_editor_styles = 'body.mce-content-body { color: ' . get_theme_mod( 'handcraft-expo_main_text_color', '#a3a3a3' ) . '; background-color: ' . get_theme_mod( 'handcraft-expo_content_background_color', '#1d2126' ) . '; font-family: ' . handcraft_expo_fonts_selection(get_theme_mod('handcraft-expo_body_font_type', 'arial')) . ';} body.mce-content-body a { color: ' . get_theme_mod('handcraft-expo_links_color', '#c4c103') . '}';
+    $handcraft_expo_admin_editor_styles = 'body.mce-content-body { color: ' . get_theme_mod( 'handcraft-expo_main_text_color', '#a3a3a3' ) . '; background-color: ' . get_theme_mod( 'handcraft-expo_content_background_color', '#1d2126' ) . '; font-family: ' . handcraft_expo_fonts_selection(get_theme_mod('handcraft-expo_body_font_type', 'arial')) . ';} body.mce-content-body a { color: ' . get_theme_mod('handcraft-expo_page_links_color', '#c4c103') . '}';
     if ( isset( $mceInit['content_style'] ) ) {
         $mceInit['content_style'] .= ' ' . $handcraft_expo_admin_editor_styles . ' ';
     } else {
