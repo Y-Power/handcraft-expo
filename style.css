@@ -1,7 +1,7 @@
 /*
 Theme Name: Handcraft Expo
 Theme URI: http://handcraftexpo.nouveausiteweb.fr
-Version: 1.1.1
+Version: 1.1.2
 Author: _Y_Power
 Author URI: http://ypower.nouveausiteweb.fr
 Description: A WordPress Theme focused on graphical impact and simplicity: a traditional left sidebar spin-off helps you 'streamline what really matters'. Geared towards personal or small-sized handcrafting businesses use. GNU GPL v3 guarantees all user's freedoms. French and Italian translations included.
@@ -2281,14 +2281,8 @@ form span {
 
 
 .page-main-content, .blog-main-content, .post-main-content, #blog-showcase-container {
-    
-    
-    
-}
 
-.page-main-content, .blog-main-content, .post-main-content, #blog-showcase-container {
-    
-    
+    line-height: 1.4;
     
 }
 
@@ -2494,7 +2488,7 @@ form span {
 .post-main-content blockquote {
     
     padding: 1% 4%;
-    letter-spacing: 0.12em;
+    -o-text-shadow: 0 0 2px;
     -ms-text-shadow: 0 0 2px;
     -moz-text-shadow: 0 0 2px;
     -webkit-text-shadow: 0 0 2px;
@@ -2508,7 +2502,7 @@ form span {
 #blog-showcase-container blockquote p, 
 .post-main-content blockquote p {
     
-    line-height: 1.1em;
+    line-height: 1.2;
     
 }
 
@@ -3529,7 +3523,7 @@ caption {
 
 }
 
-@media (max-height: 767px), 
+@media (max-height: 567px), 
 (max-width: 1180px),
 handheld {
     
@@ -3651,7 +3645,7 @@ handheld {
 
 }
 
-@media (min-height: 768px) and (min-width: 1181px) {
+@media (min-height: 568px) and (min-width: 1181px) {
     
     #mobile-container-div {
 	display: none;

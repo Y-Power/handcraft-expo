@@ -1183,10 +1183,14 @@ function handcraft_expo_customize_register($wp_customize) {
 	'priority'    => 50,
     ));
 
-    $wp_customize->add_section('handcraft-expo_your_css', array(
-	'title'       => __('Custom CSS', 'handcraft-expo'),
-	'priority'    => 120,
-    ));
+    /* Handcraft Expo custom CSS backward compatibility */
+    $handcraft_expo_old_custom_css_check = get_theme_mod('handcraft-expo_custom_css', '');
+    if ( $handcraft_expo_old_custom_css_check !== '' ){
+	$wp_customize->add_section('handcraft-expo_your_css', array(
+	    'title'       => __('Custom CSS', 'handcraft-expo'),
+	    'priority'    => 120,
+	));
+    }
 
     // $wp_customize Handcraft Expo Controls
 
